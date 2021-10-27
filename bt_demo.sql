@@ -23,6 +23,7 @@ EXPLAIN SELECT * FROM Products WHERE productPrice = 20000;
 CREATE VIEW view_product AS
 SELECT productCode, productName, productPrice, productStatus
 FROM Products;
+SELECT * FROM view_product;
 
 DELIMITER //
 CREATE PROCEDURE display()
