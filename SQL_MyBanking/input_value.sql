@@ -1,0 +1,16 @@
+USE MYBANKING;
+
+INSERT INTO customers(FULLNAME_CUSTOMER,EMAIL,ADDRESS,PHONE_NUMBER,BALANCE)
+VALUES ('Cat Tuong','cattuong97@gmail.com','81TQT','0972456812',10000000),
+('Thien Phu','thienphu98@gmail.com','25HD','0976245842',20000000),
+('Thu Le','lethu97@gmail.com','121NT','0973648954',15000000),
+('Ho Thi Na','hothina92@gmail.com','130TP','0902574236',10000000),
+('To Cu','tocu92@gmail.com','56TTN','0975642553',30000000),
+('Tran Trong Binh','trantrongbinh92@gmail.com','52LTK','0944456812',17000000);
+
+ALTER TABLE CUSTOMERS AUTO_INCREMENT = 1;
+
+SELECT * FROM CUSTOMERS;
+
+DELETE FROM CUSTOMERS;
+
